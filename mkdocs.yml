@@ -1,1 +1,11 @@
-site_name: My Docs
+site_name: Teste
+theme: lux
+nav:
+  - Home: index.md
+  - Galeria: galeria.md
+  - Etapas de criação: passo-a-passo.md
+site_url: https://testando-asa.github.io/teste
+site_description: O melhor site!!
+site_author: zClashTM
+repo_url: https://github.com/testando-asa/teste
+edit_uri: ""
