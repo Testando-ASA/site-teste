@@ -5,17 +5,17 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
+        <meta name="author" content="zClashTM">
         
-        
-        <link rel="shortcut icon" href="/img/favicon.ico">
-        <title>My Docs</title>
-        <link href="/css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="/css/font-awesome.min.css" rel="stylesheet">
-        <link href="/css/base.css" rel="stylesheet">
+        <link rel="shortcut icon" href="/teste/img/favicon.ico">
+        <title>Teste</title>
+        <link href="/teste/css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="/teste/css/font-awesome.min.css" rel="stylesheet">
+        <link href="/teste/css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
 
-        <script src="/js/jquery-1.10.2.min.js" defer></script>
-        <script src="/js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="/teste/js/jquery-1.10.2.min.js" defer></script>
+        <script src="/teste/js/bootstrap-3.0.3.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
@@ -27,11 +27,30 @@
 
                 <!-- Collapsed navigation -->
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="/.">My Docs</a>
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/teste/.">Teste</a>
                 </div>
 
                 <!-- Expanded navigation -->
                 <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="/teste/.">Home</a>
+                            </li>
+                            <li >
+                                <a href="/teste/galeria/">Galeria</a>
+                            </li>
+                            <li >
+                                <a href="/teste/passo-a-passo/">Etapas de criação</a>
+                            </li>
+                        </ul>
 
                     <ul class="nav navbar-nav navbar-right">
                         <li>
@@ -39,6 +58,9 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
+                            <li>
+                                <a href="https://github.com/testando-asa/teste"><i class="fa fa-github"></i> GitHub</a>
+                            </li>
                     </ul>
                 </div>
             </div>
@@ -61,11 +83,11 @@
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
-            var base_url = "/",
+            var base_url = "/teste",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="/js/base.js" defer></script>
-        <script src="/search/main.js" defer></script>
+        <script src="/teste/js/base.js" defer></script>
+        <script src="/teste/search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
     <div class="modal-dialog">
